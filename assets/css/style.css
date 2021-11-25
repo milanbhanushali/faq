@@ -106,6 +106,9 @@ nav ul li a {
 .mt-4 {
   margin-top: 20px !important;
 }
+.mt-5 {
+    margin-top: 25px !important;
+}
 
 .mb-0 {
   margin-bottom: 0 !important;
@@ -146,11 +149,111 @@ nav ul li a {
   top: 5px;
 
 }
+/*#region Center lorem text*/
+.faq-section{
+    position: relative;
+    top: 450px;
+    width: 100%;
+}
+
+.faq{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #4F4F4F;
+    opacity: 1;
+    font-weight: bold; 
+    font-size: 25px;
+}
 
 
+.star_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text_para{
+    width: 100%;
+    text-align: center;
+    color: #4F4F4F;
+    font-size: 15px;
+    margin-left: 0;
+}
+
+
+.for_cus{
+
+    width: 49%;
+    font-size: 24px;
+    background-color:#1D7A8C;
+    color: white;
+    margin-top: 10px;
+    padding: 25px 149px 24px;
+    height: 66px;
+    width: 472px;
+    border-bottom: 5px solid #1D7A8C;
+   
+}
+
+
+.for_sev{
+    width: 946px;
+    height: 66px;
+    font-size: 24px;
+    background-color: #f6f6f6;
+    padding: 25px 149px 24px;
+     border-bottom: 5px solid #1D7A8C;
+}
+
+.img_arrow{
+    position: relative;
+    top: 5px;
+    margin-left: 315px;
+    margin-top: 40px;
+}
+
+.text_first{
+    padding-left: 7px;
+    text-align: center;
+    font-weight: bold;
+    color: #646464;
+
+}
+.for_customer_for_services{
+    position: relative;
+    top: 50px;
+    margin-left: 300px;
+    text-justify: inter-word;
+    flex: wrap;
+    width: 85%;
+    text-align: left;
+}
+.sub_para{
+    margin-left: 350px;
+    text-justify: inter-word;
+    flex: wrap;
+    color: #646464;
+    width: 55%;
+    text-align: left;
+}
+.first-lorem{
+    position: relative;
+    top: 40px;
+}
+p{
+    margin-left: 350px;
+    text-justify: inter-word;
+    flex: wrap;
+    width: 55%;
+    text-align: left
+}
+/*#endregion Center lorem text*/
+
+/*#region Newsletter*/
 .newsletter{
     position: relative;
-    top: 500px;
+    top: 540px;
     margin-left: 38%;
 }
 
@@ -177,12 +280,12 @@ nav ul li a {
     padding: 11px 20px 13px 23px;
     cursor: pointer;
   }
-
+/*#endregion Newsletter*/
 /*#region Footer*/
 
 footer {
   position: relative;
-  top: 527px;
+  top: 587px;
   padding: 27px 0 0 0;
   background-color: #111;
   display: block;
